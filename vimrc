@@ -70,6 +70,9 @@ nnoremap <leader>gp :!git push<Cr>
 " i don't use this tbh
 map <leader>gh :Gbrowse<Cr>
 
+""" useful shiz
+nnoremap ; :
+
 " ctrl f for jsbeautify
 let g:jsbeautify = {"indent_size": 2, "indent_char": " "}
 let g:jsbeautify_engine = "node"
