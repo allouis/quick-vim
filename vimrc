@@ -7,7 +7,6 @@ set nobackup
 set nowb
 set noswapfile
 set ic
-set mouse=a 
 
 " syntax highligting
 syntax enable
