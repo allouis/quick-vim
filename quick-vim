@@ -42,13 +42,6 @@ install () {
     cp ./vimrc ~/.vimrc
     cp -r ./vim ~/.vim
 
-    # add in bundles from bundle.txt
-    mkdir -p ~/.vim/bundle
-    bundles=$(cat ./bundles.txt)
-    cd ~/.vim/bundle
-    for repo in $bundles; do
-        git clone $repo
-    done
 }
 
 # if backup exists clobbers home vim and copies in backup
