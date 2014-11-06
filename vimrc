@@ -1,6 +1,34 @@
-call pathogen#infect()
-syntax on
+filetype off " Vundle required
+
+set rtp+=~/.vim/bundle/vundle
+call vundle#rc()
+
+Bundle 'gmarik/vundle'
+
+" file system
+Bundle 'scrooloose/nerdtree'
+
+" git integration
+Bundle 'tpope/vim-fugitive'
+
+" syntax
+Bundle 'scrooloose/syntastic'
+Bundle 'jelera/vim-javascript-syntax'
+Bundle 'kchmck/vim-coffee-script'
+Bundle 'plasticboy/vim-markdown'
+Bundle 'elzr/vim-json'
+
+" jshint
+Bundle 'walm/jshint.vim'
+
+" powerline
+Bundle 'Lokaltog/vim-powerline'
+
+" colors
+Bundle 'altercation/vim-colors-solarized'
+
 filetype plugin indent on
+
 set nofoldenable
 set nocompatible
 set nobackup
