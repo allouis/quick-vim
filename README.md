@@ -25,8 +25,6 @@ For years I've found myself trying to make THE ULTIMATE VIM CONFIGURATION. When 
 - no weird bundles that require re-compilation of vim or outside scripting languages
 - bundle config is in a plain text file stored in the root of this directory
 
-<img src="https://github.com/brianleroux/quick-vim/raw/master/screen.jpg" />
-
 ## the bundles for me
 
 This is a portable text editor for doing JS dev on the run, in a shell, probably on a temporary machine, possibly drunk. Vim is surprisely powerful stand-alone, odds are you don't *really* need a particular plugin bundle. Try to work with the stock install. You'll be surprised! And less, dependant on custom schemes. (Ironic words for a vim config project, I know.)
@@ -37,7 +35,7 @@ If you do need more, you can always fork this repo, create a branch, modify the 
 
 Getting started with `quick-vim` is easy:
 
-    git clone git://github.com/brianleroux/quick-vim.git
+    git clone git://github.com/allouis/quick-vim.git
     cd quick-vim
     ./quick-vim install
 
