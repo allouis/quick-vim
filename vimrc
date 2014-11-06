@@ -61,6 +61,15 @@ autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTree
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
 
+""" git stuff
+nmap <leader>gs :Gstatus<Cr>
+nmap <leader>gc :Gcommit<Cr>
+nmap <leader>gb :Gblame<Cr>
+nnoremap <leader>gp :!git push<Cr>
+" open file in github
+" i don't use this tbh
+map <leader>gh :Gbrowse<Cr>
+
 " ctrl f for jsbeautify
 let g:jsbeautify = {"indent_size": 2, "indent_char": " "}
 let g:jsbeautify_engine = "node"
