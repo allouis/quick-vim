@@ -18,6 +18,12 @@ Bundle 'kchmck/vim-coffee-script'
 Bundle 'plasticboy/vim-markdown'
 Bundle 'elzr/vim-json'
 
+" clojure
+Bundle 'tpope/vim-fireplace'
+Bundle 'guns/vim-clojure-static'
+Bundle 'vim-scripts/paredit.vim'
+Bundle 'kien/rainbow_parentheses.vim'
+
 " jshint
 Bundle 'walm/jshint.vim'
 
