@@ -58,6 +58,7 @@ set visualbell t_vb=
 
 " line numbers
 set nu
+set rnu
 
 " 2 space softabs default
 set expandtab
