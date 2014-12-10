@@ -66,7 +66,7 @@ set ts=2
 set sw=2
 
 " close vim if nerdtree is only thing open
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endifautocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTreeType") && b:NERDTreeType == "primary") | q | endif
 
 " \+n toggles the nerdtree
 map <leader>n :NERDTreeToggle<CR>
