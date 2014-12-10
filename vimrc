@@ -8,6 +8,9 @@ Bundle 'gmarik/vundle'
 " file system
 Bundle 'scrooloose/nerdtree'
 
+" tools
+Bundle 'vimwiki/vimwiki'
+
 " git integration
 Bundle 'tpope/vim-fugitive'
 
